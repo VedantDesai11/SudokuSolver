@@ -2,8 +2,8 @@
 Upload a sudoku puzzle image to the program and it outputs solved image. Works on screenshots taken from websudoku.com.
 
 Steps
-  Detect the puzzle from the image and crop it out. 
-  CNN used for number prediction trained on MNIST Dataset.
+  -Detect the puzzle from the image and crop it out. 
+  -CNN used for number prediction trained on MNIST Dataset.
 
 
 # Input Image
