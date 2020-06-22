@@ -5,12 +5,13 @@ Upload a sudoku puzzle image to the program and it outputs solved image. Works o
   -Detect the puzzle from the image and crop it out. 
   -CNN used for number prediction trained on MNIST Dataset.
   
- ###Example
-* Item 1
-* Item 2
-  * Sub Item 1
-  * Sub Item 2
-
+Steps
+* Detect the puzzle from the image and crop it out. 
+* Find all 81 boxes and predict the numbers in them.
+* CNN used for number prediction trained on MNIST Dataset.
+* Create array from predictions
+* Solve array using backtracking algorithm
+* Print Numbers back into the image and save
 
 # Input Image
 ![alt text](https://github.com/VedantDesai11/SudokuSolver/blob/master/SudokuPuzzles/Puzzle1.png)
